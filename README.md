@@ -4,6 +4,14 @@
 ```
 npm install
 ```
+Create a file called imgurOAuth.js in the src directory. This should export an object like so:
+```
+export default {
+  name: "imgurOAuth",
+  clientId: YOUR_CLIENT_ID,
+  clientSecret: YOUR_CLIENT_SECRET
+} 
+```
 
 ### Compiles and hot-reloads for development
 ```
